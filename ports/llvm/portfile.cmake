@@ -12,6 +12,7 @@ vcpkg_from_github(
         0003-fix-llvm-config.patch
         0004-disable-libomp-aliases.patch
         0006-create-destination-mlir-directory.patch
+        0007-stop-overriding-tools-dir.patch
 )
 
 vcpkg_check_features(
