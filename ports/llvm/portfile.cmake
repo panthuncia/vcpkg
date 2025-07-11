@@ -7,6 +7,11 @@ vcpkg_from_github(
     SHA512 3db4660b629bd1b45fb5c3a10bb1bf4d78133dda60e44a9a34d3bc797b833985b94153195e3fcec31b6413ed0ed61439322a8da51d58629d0bf47e52e4c8ad94
     HEAD_REF main
     PATCHES
+        0001-fix-install-package-dir.patch
+        0002-fix-tools-install-dir.patch
+        0003-fix-llvm-config.patch
+        0004-disable-libomp-aliases.patch
+        0006-create-destination-mlir-directory.patch
 )
 
 vcpkg_check_features(
