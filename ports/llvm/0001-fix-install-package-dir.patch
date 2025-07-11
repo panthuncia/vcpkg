@@ -11,3 +11,4 @@ index 22d818eea72d..75aacc4468d4 100644
  install(FILES "FindOpenMPTarget.cmake"
 -              DESTINATION "${OPENMP_INSTALL_LIBDIR}/cmake/openmp")
 +              DESTINATION "share/openmp")
+               
